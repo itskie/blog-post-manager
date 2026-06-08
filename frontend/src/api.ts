@@ -1,6 +1,6 @@
 import type { Post } from "./types";
 
-const BASE = "http://localhost:8000";
+const BASE = "https://blog-post-manager-b3o5.onrender.com";
 
 export async function fetchPosts(): Promise<Post[]> {
   const res = await fetch(`${BASE}/posts`);
